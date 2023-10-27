@@ -1,0 +1,35 @@
+.modalWindow {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    opacity: 0;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    &__content {
+        position: relative;
+        padding: 24px;
+        background-color: white;
+        border-radius: 16px;
+        width: 500px;
+    }
+
+    &__closeIcon {
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    &__active {
+        display: flex;
+        opacity: 1;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

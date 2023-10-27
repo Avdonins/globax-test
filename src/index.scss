@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  @font-face {
+    font-family: Proxima Nova;
+    src: url("./fonts/ProximaNova/proximanova_regular.ttf");
+  }
+}
